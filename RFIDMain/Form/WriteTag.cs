@@ -65,10 +65,11 @@ namespace RFIDMain
             chkbox_burningTag.Checked = ReaderInfo.readerConnerted;
 
             //初始化文本框内容 add by xue lei on 2018-6-23
-            textBox2.Text = "ZNSHINE";
-            textBox1.Text = "2016/4/29";
-            textBox3.Text = "YOT";
-            textBox4.Text = "ISO9001";
+            textBox2.Text = "";
+            textBox1.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
            
              
         }
@@ -200,6 +201,19 @@ namespace RFIDMain
                                         //paintBackgroundColor(statusType.FAIL);
                                         return;
                                     }
+
+                                    //检查FF
+                                    if (string.IsNullOrEmpty(o.FF))
+                                    {
+                                        DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt09);
+                                        //List<string> csvValueList = new List<string> { System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), m_sSerialNumber, "Fail", "" };
+                                        //WriteCSVLog.WriteCSV(csvValueList);
+                                        //WriteLog(lrtxtLog, m_sSerialNumber + " " + Resources.strPrompt08, 1);
+                                        //common.rf_beep(ReaderInfo.icdev, 20);
+                                        //paintBackgroundColor(statusType.FAIL);
+                                        return;
+                                    }
+
                                     #endregion
 
                                     ShowIVCurves(double.Parse(o.Isc), double.Parse(o.Ipm), double.Parse(o.Vpm), double.Parse(o.Voc),o.Module_ID);
@@ -282,18 +296,18 @@ namespace RFIDMain
                                     //paintBackgroundColor(statusType.FAIL);
                                     return;
                                 }
-                                //===============不取包装的数据 modify by xue lei on 2018-6-23==================
-                                //if (string.IsNullOrEmpty(o.PackedDate))
-                                //{
-                                //    DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt03);
-                                //    //List<string> csvValueList = new List<string> { System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), m_sSerialNumber, "Fail", "" };
-                                //    //WriteCSVLog.WriteCSV(csvValueList);
-                                //    //WriteLog(lrtxtLog, m_sSerialNumber + " " + Resources.strPrompt03, 1);
-                                //    //common.rf_beep(ReaderInfo.icdev, 20);
-                                //    //paintBackgroundColor(statusType.FAIL);
-                                //    return;
-                                //}
-                                //===============================================================
+                                
+                                if (string.IsNullOrEmpty(o.PackedDate))
+                                {
+                                    DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt03);
+                                    //List<string> csvValueList = new List<string> { System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), m_sSerialNumber, "Fail", "" };
+                                    //WriteCSVLog.WriteCSV(csvValueList);
+                                    //WriteLog(lrtxtLog, m_sSerialNumber + " " + Resources.strPrompt03, 1);
+                                    //common.rf_beep(ReaderInfo.icdev, 20);
+                                    //paintBackgroundColor(statusType.FAIL);
+                                    return;
+                                }
+                                
                                 if (string.IsNullOrEmpty(o.Pmax))
                                 {
                                     DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt04);
@@ -700,6 +714,12 @@ namespace RFIDMain
                     tbx_voc.Text = "";
                     tbx_vpm.Text = "";
                     tbx_ff.Text = "";
+
+                    textBox2.Text = "";
+                    textBox1.Text = "";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    textBox5.Text = "";
                 }
                 else
                 {
@@ -715,7 +735,13 @@ namespace RFIDMain
                     string stemp = oModuleInfo.Pivf;
 
 
-                    tbx_ff.Text = stemp.Substring(stemp.LastIndexOf(',') + 1);
+                    tbx_ff.Text = oModuleInfo.FF;//stemp.Substring(stemp.LastIndexOf(',') + 1);
+
+                    textBox2.Text = "ZNSHINE";
+                    textBox1.Text = "2016/4/29";
+                    textBox3.Text = "YOT";
+                    textBox4.Text = "ISO9001";
+                    textBox5.Text = "China";
                 }
 
             }

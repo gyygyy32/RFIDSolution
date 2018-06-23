@@ -64,5 +64,8 @@ namespace Wcf.ServiceContracts.RFID
 
         [DataMember]
         public bool b_writenDataBefore { get; set; }
+        //add by xue lei on 2018-6-23
+        [DataMember]
+        public string FF { get; set; }
     }
 }

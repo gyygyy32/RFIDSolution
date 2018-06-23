@@ -131,5 +131,14 @@ namespace RFIDMain.Properties {
                 return ResourceManager.GetString("strPrompt08", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   查找类似 FF不能为空 的本地化字符串。
+        /// </summary>
+        internal static string strPrompt09 {
+            get {
+                return ResourceManager.GetString("strPrompt09", resourceCulture);
+            }
+        }
     }
 }

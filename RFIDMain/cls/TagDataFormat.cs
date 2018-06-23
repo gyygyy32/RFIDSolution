@@ -41,6 +41,8 @@ namespace RFIDMain.cls
             decimal iIsc = Decimal.Parse(mi.Isc) * 100M;
             decimal iVpm = Decimal.Parse(mi.Vpm) * 100M;
             decimal iIpm = Decimal.Parse(mi.Ipm) * 100M;
+            //添加ff add by xue lei on 2018-6-23
+            decimal iFF = Decimal.Parse(mi.FF) * 100M;
 
             using (MemoryStream stream = new MemoryStream())
             {
@@ -55,7 +57,8 @@ namespace RFIDMain.cls
                     writer.Write((short)iIsc);
                     writer.Write((short)iVpm);
                     writer.Write((short)iIpm);
-
+                    // 添加ff add by xue lei on 2018-6-23
+                    writer.Write((short)iFF);
                    // writer.Write(CellSource);//add by genhong.hu On 2017-12-31，在此之前高频读卡器没有写入CellSource
                     writer.Write(DateToInt16(celldate));
 
@@ -95,22 +98,25 @@ namespace RFIDMain.cls
                 o.ProductType = buffReader.ReadString();
                 o.Module_ID = buffReader.ReadString();
                 DateTime dateOfModulePacked = DateFormInt16(buffReader.ReadInt16());
-                o.PackedDate = dateOfModulePacked.ToString("yyyy-MM-dd");
+                o.PackedDate = dateOfModulePacked.ToString("yyyy-MM");
                 //string pivf = buffReader.ReadString();
                 double Pmax = buffReader.ReadInt32() * 1.0 / 100;
                 double Voc = buffReader.ReadInt16() * 1.0 / 100;
                 double Isc = buffReader.ReadInt16() * 1.0 / 100;
                 double Vpm = buffReader.ReadInt16() * 1.0 / 100;
                 double Ipm = buffReader.ReadInt16() * 1.0 / 100;
+                double FF = buffReader.ReadInt16() * 1.0 / 100;
                 o.Pmax = Pmax.ToString();
                 o.Voc = Voc.ToString();
                 o.Isc = Isc.ToString();
                 o.Vpm = Vpm.ToString();
                 o.Ipm = Ipm.ToString();
+                o.FF = (FF*100).ToString()+"%";
                 //o.Cellsource = buffReader.ReadString();//add by genhong.hu On 2017-12-31，在此之前高频读卡器没有写入CellSource
                 DateTime celldate = DateFormInt16(buffReader.ReadInt16());// Add by genhong.hu On 2014-08-11 ;  
-                o.CellDate = celldate.ToString("yyyy-MM-dd");
-                double FF = Math.Round(Vpm * Ipm / Voc / Isc * 100, 2);
+                o.CellDate = celldate.ToString("yyyy-MM");
+                //ff 从数据库查询 modify by xue lei on 2018-6-23
+                //double FF = Math.Round(Vpm * Ipm / Voc / Isc * 100, 2);
              
                 o.Pivf = Pmax + "Wp," + Voc + "V," + Isc + "A," + Vpm + "V," + Ipm + "A," + FF + "%";
                

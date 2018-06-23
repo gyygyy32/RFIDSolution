@@ -6,3 +6,7 @@ C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Servi
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.dll
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.pdb

@@ -141,4 +141,7 @@
   <data name="strPrompt08" xml:space="preserve">
     <value>Isc不能为空</value>
   </data>
+  <data name="strPrompt09" xml:space="preserve">
+    <value>FF不能为空</value>
+  </data>
 </root>

@@ -136,6 +136,7 @@ values('{0}','{1}','{2}','{3}','')
                         obj.Cellsource = r.IsDBNull(13) ? "" : r.GetString(13);
                         obj.EqpID = r.IsDBNull(14) ? "" : r.GetString(14);
                         obj.IVFilePath = r.IsDBNull(15) ? "" : r.GetString(15);
+                        obj.FF = r.IsDBNull(16) ? "" : r.GetString(16);
                     }
                     catch (Exception ex)
                     {

@@ -7,3 +7,7 @@ C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTes
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.pdb
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.exe
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.exe
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.exe
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.pdb
