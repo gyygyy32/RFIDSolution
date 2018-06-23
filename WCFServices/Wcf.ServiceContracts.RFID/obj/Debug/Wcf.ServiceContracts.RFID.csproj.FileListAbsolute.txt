@@ -1,0 +1,5 @@
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Debug\Wcf.ServiceContracts.RFID.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Debug\Wcf.ServiceContracts.RFID.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Debug\Wcf.ServiceContracts.RFID.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Debug\Wcf.ServiceContracts.RFID.pdb

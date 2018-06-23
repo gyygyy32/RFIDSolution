@@ -1,0 +1,8 @@
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.ServiceContracts.RFID\obj\Release\Wcf.ServiceContracts.RFID.pdb

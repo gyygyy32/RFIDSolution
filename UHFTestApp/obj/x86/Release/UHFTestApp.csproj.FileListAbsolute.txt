@@ -1,0 +1,4 @@
+D:\SoftWare\C#\RFIDSolution\UHFTestApp\obj\x86\Release\UHFTestApp.Form1.resources
+D:\SoftWare\C#\RFIDSolution\UHFTestApp\obj\x86\Release\UHFTestApp.Properties.Resources.resources
+D:\SoftWare\C#\RFIDSolution\UHFTestApp\obj\x86\Release\UHFTestApp.csproj.GenerateResource.Cache
+D:\SoftWare\C#\RFIDSolution\UHFTestApp\obj\x86\Release\UHFTestApp.csprojResolveAssemblyReference.cache

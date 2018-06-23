@@ -1,0 +1,16 @@
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.Service.RFID.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.Service.RFID.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\MySql.Data.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.ServiceContracts.RFID.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.csprojResolveAssemblyReference.cache
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.Service.RFID.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.Service.RFID.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\MySql.Data.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.ServiceContracts.RFID.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Release\Wcf.ServiceContracts.RFID.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.csprojResolveAssemblyReference.cache
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Release\Wcf.Service.RFID.pdb

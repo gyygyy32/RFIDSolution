@@ -1,0 +1,5 @@
+D:\RfidSolution\RFIDSolution\Reader\bin\x86\Debug\Reader.dll
+D:\RfidSolution\RFIDSolution\Reader\bin\x86\Debug\Reader.pdb
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Debug\Reader.dll
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Debug\Reader.pdb

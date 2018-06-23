@@ -1,0 +1,16 @@
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.exe.config
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.exe
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\bin\Release\Wcf.Api.RFID.Desk.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\bin\Release\Wcf.Api.RFID.Desk.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.exe
+D:\SoftWare\C#\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.exe.config
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\bin\Release\ConsoleTest.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\bin\Release\Wcf.Api.RFID.Desk.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\bin\Release\Wcf.Api.RFID.Desk.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Release\ConsoleTest.csprojResolveAssemblyReference.cache

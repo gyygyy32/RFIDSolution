@@ -1,0 +1,15 @@
+D:\RfidSolution\RFIDSolution\Reader\bin\x86\Release\Reader.dll
+D:\RfidSolution\RFIDSolution\Reader\bin\x86\Release\Reader.pdb
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Release\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Release\Reader.dll
+D:\RfidSolution\RFIDSolution\Reader\obj\x86\Release\Reader.pdb
+D:\SoftWare\C#\RFIDSolution\UHFReader\bin\x86\Release\UHFReader.dll
+D:\SoftWare\C#\RFIDSolution\UHFReader\bin\x86\Release\UHFReader.pdb
+D:\SoftWare\C#\RFIDSolution\UHFReader\obj\x86\Release\UHFReader.dll
+D:\SoftWare\C#\RFIDSolution\UHFReader\obj\x86\Release\UHFReader.pdb
+D:\SoftWare\C#\RFIDSolution\UHFReader\bin\Debug\UHFReader.dll
+D:\SoftWare\C#\RFIDSolution\UHFReader\bin\Debug\UHFReader.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\UHFReader\bin\Debug\UHFReader.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\UHFReader\bin\Debug\UHFReader.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\UHFReader\obj\x86\Release\UHFReader.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\UHFReader\obj\x86\Release\UHFReader.pdb

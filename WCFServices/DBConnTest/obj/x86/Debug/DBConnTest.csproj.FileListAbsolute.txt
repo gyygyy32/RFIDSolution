@@ -1,0 +1,5 @@
+D:\RfidSolution\RFIDSolution\WCFServices\DBConnTest\bin\Debug\DBConnTest.exe
+D:\RfidSolution\RFIDSolution\WCFServices\DBConnTest\bin\Debug\DBConnTest.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\DBConnTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\WCFServices\DBConnTest\obj\x86\Debug\DBConnTest.exe
+D:\RfidSolution\RFIDSolution\WCFServices\DBConnTest\obj\x86\Debug\DBConnTest.pdb

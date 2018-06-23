@@ -1,0 +1,14 @@
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\bin\Release\RfidLicenseGenerater.exe
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\bin\Release\RfidLicenseGenerater.pdb
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.Form1.resources
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.Properties.Resources.resources
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.csproj.GenerateResource.Cache
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.exe
+D:\SoftWare\C#\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\bin\Release\RfidLicenseGenerater.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\bin\Release\RfidLicenseGenerater.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.Form1.resources
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.Properties.Resources.resources
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.csproj.GenerateResource.Cache
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.pdb

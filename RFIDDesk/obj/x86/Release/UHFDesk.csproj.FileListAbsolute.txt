@@ -1,0 +1,8 @@
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.csprojResolveAssemblyReference.cache
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.ActivateProduct.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.ConfigReader.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.UHFWriteTag.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.UHFReadTag.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.UHFDeskMain.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.Properties.Resources.resources
+D:\SoftWare\C#\RFIDSolution\RFIDDesk\obj\x86\Release\UHFDesk.csproj.GenerateResource.Cache

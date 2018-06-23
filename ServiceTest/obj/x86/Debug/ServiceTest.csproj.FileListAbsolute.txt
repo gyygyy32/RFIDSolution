@@ -1,0 +1,10 @@
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\ServiceTest.exe
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\ServiceTest.pdb
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\Wcf.Service.RFID.dll
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\Wcf.ServiceContracts.RFID.dll
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\MySql.Data.dll
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\Wcf.Service.RFID.pdb
+D:\RfidSolution\RFIDSolution\ServiceTest\bin\Debug\Wcf.ServiceContracts.RFID.pdb
+D:\RfidSolution\RFIDSolution\ServiceTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\ServiceTest\obj\x86\Debug\ServiceTest.exe
+D:\RfidSolution\RFIDSolution\ServiceTest\obj\x86\Debug\ServiceTest.pdb

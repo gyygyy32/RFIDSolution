@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D76D6BC-572B-4D85-BC30-2EB154A99BDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HFDesk</RootNamespace>
+    <AssemblyName>HFDesk</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hllogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\ActivateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ActivateProduct.Designer.cs">
+      <DependentUpon>ActivateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpClass\CCommondMethod.cs" />
+    <Compile Include="helpClass\common.cs" />
+    <Compile Include="helpClass\DealINI.cs" />
+    <Compile Include="helpClass\Hardwares.cs" />
+    <Compile Include="helpClass\ISO15693Commands.cs" />
+    <Compile Include="helpClass\MD5Handler.cs" />
+    <Compile Include="helpClass\mifareone.cs" />
+    <Compile Include="helpClass\RFIDInterface.cs" />
+    <Compile Include="helpClass\TagDataFormat.cs" />
+    <Compile Include="helpClass\WcfCaller.cs" />
+    <Compile Include="helpClass\WriteCSVLog.cs" />
+    <Compile Include="HFDesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HFDesk.Designer.cs">
+      <DependentUpon>HFDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q8Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Q8Test.Designer.cs">
+      <DependentUpon>Q8Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\WriteTag1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\WriteTag1.Designer.cs">
+      <DependentUpon>WriteTag1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ReadTag1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ReadTag1.Designer.cs">
+      <DependentUpon>ReadTag1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReaderInfo.cs" />
+    <EmbeddedResource Include="Form\ActivateProduct.resx">
+      <DependentUpon>ActivateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ReadTag1.resx">
+      <DependentUpon>ReadTag1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\WriteTag1.resx">
+      <DependentUpon>WriteTag1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HFDesk.resx">
+      <DependentUpon>HFDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Q8Test.resx">
+      <DependentUpon>Q8Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hllogo.ico" />
+    <Content Include="mwrf32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rfid.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControl\CustomControl.csproj">
+      <Project>{3022476E-CEF0-48D4-B76D-5AA42F4DD121}</Project>
+      <Name>CustomControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCFServices\Wcf.Api.RFID.Desk\Wcf.Api.RFID.Desk.csproj">
+      <Project>{F935A1A8-149F-40A3-AE6B-AC7850925393}</Project>
+      <Name>Wcf.Api.RFID.Desk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

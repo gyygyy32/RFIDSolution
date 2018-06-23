@@ -1,0 +1,9 @@
+D:\SoftWare\C#\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.exe
+D:\SoftWare\C#\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.exe
+D:\SoftWare\C#\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.csprojResolveAssemblyReference.cache
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\bin\Release\DBConnTest.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.exe
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\DBConnTest\obj\x86\Release\DBConnTest.pdb

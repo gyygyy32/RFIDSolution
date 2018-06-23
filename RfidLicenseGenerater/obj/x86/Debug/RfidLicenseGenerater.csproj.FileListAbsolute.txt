@@ -1,0 +1,9 @@
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\bin\Debug\RfidLicenseGenerater.exe
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\bin\Debug\RfidLicenseGenerater.pdb
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\RfidLicenseGenerater.Form1.resources
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\RfidLicenseGenerater.Properties.Resources.resources
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\RfidLicenseGenerater.exe
+D:\RfidSolution\RFIDSolution\RfidLicenseGenerater\obj\x86\Debug\RfidLicenseGenerater.pdb

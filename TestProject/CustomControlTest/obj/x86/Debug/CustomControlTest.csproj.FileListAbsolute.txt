@@ -1,0 +1,11 @@
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\bin\Debug\CustomControlTest.exe
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\bin\Debug\CustomControlTest.pdb
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\bin\Debug\CustomControl.dll
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\bin\Debug\CustomControl.pdb
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\CustomControlTest.Form1.resources
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\CustomControlTest.Properties.Resources.resources
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\CustomControlTest.exe
+D:\RfidSolution\RFIDSolution\TestProject\CustomControlTest\obj\x86\Debug\CustomControlTest.pdb

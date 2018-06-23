@@ -1,0 +1,6 @@
+##########################################################
+1. make sure the path "c:\svcLog" exist, because this
+   is the path that holds the log files. 
+2. copy files in "Deployment" to IIS service executive path.
+3. Port for this service should be 8106
+##########################################################

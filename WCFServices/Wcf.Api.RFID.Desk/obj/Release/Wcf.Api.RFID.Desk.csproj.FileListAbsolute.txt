@@ -1,0 +1,13 @@
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.pdb
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.dll
+D:\SoftWare\C#\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.pdb
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.dll
+C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.pdb

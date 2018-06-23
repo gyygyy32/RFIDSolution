@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C70E34BE-93E2-4CF0-AFBB-D9B734FC538F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RFIDMain</RootNamespace>
+    <AssemblyName>RFIDMain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UHFReader">
+      <HintPath>..\UHFReader\bin\Debug\UHFReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cls\BasicConfigInfo.cs" />
+    <Compile Include="cls\CCommondMethod.cs" />
+    <Compile Include="cls\InventoryBuffer.cs" />
+    <Compile Include="cls\OperateTagBuffer.cs" />
+    <Compile Include="cls\OperateTagISO18000Buffer.cs" />
+    <Compile Include="cls\ReaderSetting.cs" />
+    <Compile Include="cls\ErrorCode.cs" />
+    <Compile Include="cls\common.cs" />
+    <Compile Include="cls\DealINI.cs" />
+    <Compile Include="cls\Hardwares.cs" />
+    <Compile Include="cls\ISO15693Commands.cs" />
+    <Compile Include="cls\MD5Handler.cs" />
+    <Compile Include="cls\mifareone.cs" />
+    <Compile Include="cls\ReaderInfo.cs" />
+    <Compile Include="cls\RFIDInterface.cs" />
+    <Compile Include="cls\TagDataFormat.cs" />
+    <Compile Include="cls\UHFISO18000.cs" />
+    <Compile Include="cls\WcfCaller.cs" />
+    <Compile Include="cls\WriteCSVLog.cs" />
+    <Compile Include="cls\HFISO15693.cs" />
+    <Compile Include="Config\R2000UartDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config\R2000UartDemo.designer.cs">
+      <DependentUpon>R2000UartDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ActivateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ActivateProduct.designer.cs">
+      <DependentUpon>ActivateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ReadTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ReadTag.designer.cs">
+      <DependentUpon>ReadTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\WriteTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\WriteTag.designer.cs">
+      <DependentUpon>WriteTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDesk.Designer.cs">
+      <DependentUpon>MainDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Config\R2000UartDemo.resx">
+      <DependentUpon>R2000UartDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="config.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Form\ActivateProduct.resx">
+      <DependentUpon>ActivateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ReadTag.resx">
+      <DependentUpon>ReadTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\WriteTag.resx">
+      <DependentUpon>WriteTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDesk.resx">
+      <DependentUpon>MainDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControl\CustomControl.csproj">
+      <Project>{3022476E-CEF0-48D4-B76D-5AA42F4DD121}</Project>
+      <Name>CustomControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCFServices\Wcf.Api.RFID.Desk\Wcf.Api.RFID.Desk.csproj">
+      <Project>{F935A1A8-149F-40A3-AE6B-AC7850925393}</Project>
+      <Name>Wcf.Api.RFID.Desk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3rd\H3Reader\Reader.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="hllogo.ico" />
+    <Content Include="mwrf32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rfid.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

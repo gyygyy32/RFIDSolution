@@ -1,0 +1,8 @@
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\bin\Debug\Wcf.Api.RFID.Desk.dll
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\bin\Debug\Wcf.Api.RFID.Desk.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Debug\ConsoleTest.exe
+D:\RfidSolution\RFIDSolution\WCFServices\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb

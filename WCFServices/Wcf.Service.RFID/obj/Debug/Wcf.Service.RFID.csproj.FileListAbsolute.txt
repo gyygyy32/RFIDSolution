@@ -1,0 +1,8 @@
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.Service.RFID.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.Service.RFID.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\MySql.Data.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.ServiceContracts.RFID.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.ServiceContracts.RFID.pdb
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.dll
+D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.pdb

@@ -1,0 +1,9 @@
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.ActivateProduct.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.ConfigReader.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.UHFWriteTag.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.UHFReadTag.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.UHFDeskMain.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\UHFDesk.Properties.Resources.resources
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\RfidSolution\RFIDSolution\RFIDDesk\obj\x86\Debug\GenerateResource.write.1.tlog

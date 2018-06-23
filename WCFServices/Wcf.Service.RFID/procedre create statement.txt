@@ -1,0 +1,23 @@
+#################sql server procedure create statement############
+
+CREATE PROCEDURE sp_get_flash_data
+	@v_serial varchar(30)
+AS
+BEGIN
+	select pmax,vpm,ipm from dbo.serial_iv where serial_nbr=@v_serial;
+END
+GO
+
+#############################END##################################
+
+####################My Sql proceudre crete statement##############
+CREATE DEFINER=`mesadmin`@`%` PROCEDURE `sp_get_flash_data`(
+in v_serial varchar(30)
+)
+BEGIN
+    
+    select pmax,vpm,ipm from mes_flash.serial_iv where serial_nbr=v_serial;
+
+END
+#############################END##################################
+
