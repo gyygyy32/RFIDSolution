@@ -6,3 +6,11 @@ D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.ServiceC
 D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\ResolveAssemblyReference.cache
 D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.dll
 D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.Service.RFID.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.Service.RFID.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.ServiceContracts.RFID.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\bin\Debug\Wcf.ServiceContracts.RFID.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Service.RFID\obj\Debug\Wcf.Service.RFID.pdb

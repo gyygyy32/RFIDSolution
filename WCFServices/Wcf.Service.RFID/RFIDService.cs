@@ -113,12 +113,13 @@ values('{0}','{1}','{2}','{3}','')
                 #region mysql db
                 conn = m_mysql_conn;
 
-                IEnumerable<ModuleInfo> miList = DBOperation.GetMySqlRowsBySP<ModuleInfo>(conn, "Get_RFID_BasicInfo", dic, r =>
+                IEnumerable<ModuleInfo> miList = DBOperation.GetMySqlRowsBySP<ModuleInfo>(conn, "Get_RFID_BasicInfo_V3", dic, r =>
                 {
                     //int i = 0;
                     ModuleInfo obj = new ModuleInfo();
                     try
                     {
+                        
                         obj.ProductType = r.IsDBNull(0) ? "" : r.GetString(0);
                         obj.ELGrade = r.IsDBNull(1) ? "" : r.GetString(1);
                         obj.Status = r.IsDBNull(2) ? "" : r.GetString(2);

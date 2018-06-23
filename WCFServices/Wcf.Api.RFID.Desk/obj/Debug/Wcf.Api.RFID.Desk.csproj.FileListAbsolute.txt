@@ -5,6 +5,5 @@ D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Debug\Wcf.Api.RFI
 D:\RfidSolution\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Debug\Wcf.Api.RFID.Desk.pdb
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Debug\Wcf.Api.RFID.Desk.dll
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Debug\Wcf.Api.RFID.Desk.pdb
-C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Debug\Wcf.Api.RFID.Desk.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Debug\Wcf.Api.RFID.Desk.dll
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Debug\Wcf.Api.RFID.Desk.pdb

@@ -41,7 +41,6 @@ namespace RFIDMain
             InitializeComponent();
 
             timer = new System.Threading.Timer(TimerCallback, null, Timeout.Infinite, Timeout.Infinite);
-
         }
 
         private void TimerCallback(object state)
@@ -64,6 +63,12 @@ namespace RFIDMain
             _RFIDDevice.Open(ref strLog);
             WriteLog(lrtxtLog, strLog, ReaderInfo.readerConnerted ? 0 : 1);
             chkbox_burningTag.Checked = ReaderInfo.readerConnerted;
+
+            //初始化文本框内容 add by xue lei on 2018-6-23
+            textBox2.Text = "ZNSHINE";
+            textBox1.Text = "2016/4/29";
+            textBox3.Text = "YOT";
+            textBox4.Text = "ISO9001";
            
              
         }
@@ -277,16 +282,18 @@ namespace RFIDMain
                                     //paintBackgroundColor(statusType.FAIL);
                                     return;
                                 }
-                                if (string.IsNullOrEmpty(o.PackedDate))
-                                {
-                                    DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt03);
-                                    //List<string> csvValueList = new List<string> { System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), m_sSerialNumber, "Fail", "" };
-                                    //WriteCSVLog.WriteCSV(csvValueList);
-                                    //WriteLog(lrtxtLog, m_sSerialNumber + " " + Resources.strPrompt03, 1);
-                                    //common.rf_beep(ReaderInfo.icdev, 20);
-                                    //paintBackgroundColor(statusType.FAIL);
-                                    return;
-                                }
+                                //===============不取包装的数据 modify by xue lei on 2018-6-23==================
+                                //if (string.IsNullOrEmpty(o.PackedDate))
+                                //{
+                                //    DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt03);
+                                //    //List<string> csvValueList = new List<string> { System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), m_sSerialNumber, "Fail", "" };
+                                //    //WriteCSVLog.WriteCSV(csvValueList);
+                                //    //WriteLog(lrtxtLog, m_sSerialNumber + " " + Resources.strPrompt03, 1);
+                                //    //common.rf_beep(ReaderInfo.icdev, 20);
+                                //    //paintBackgroundColor(statusType.FAIL);
+                                //    return;
+                                //}
+                                //===============================================================
                                 if (string.IsNullOrEmpty(o.Pmax))
                                 {
                                     DoFailStuff(m_sSerialNumber + " " + Resources.strPrompt04);

@@ -11,3 +11,7 @@ C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.R
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.pdb
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.dll
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\bin\Release\Wcf.Api.RFID.Desk.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\WCFServices\Wcf.Api.RFID.Desk\obj\Release\Wcf.Api.RFID.Desk.pdb

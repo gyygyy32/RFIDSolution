@@ -8,7 +8,6 @@ D:\RfidSolution\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.dll
 D:\RfidSolution\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.pdb
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\bin\x86\Debug\CustomControl.dll
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\bin\x86\Debug\CustomControl.pdb
-C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.IpAddressTextBox.resources
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Debug\CustomControl.dll

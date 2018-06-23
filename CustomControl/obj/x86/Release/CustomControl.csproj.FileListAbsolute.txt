@@ -18,3 +18,9 @@ C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.csproj.GenerateResource.Cache
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.dll
 C:\Users\XULCCHA\Desktop\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\bin\x86\Release\CustomControl.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\bin\x86\Release\CustomControl.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.IpAddressTextBox.resources
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.dll
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\CustomControl\obj\x86\Release\CustomControl.pdb
