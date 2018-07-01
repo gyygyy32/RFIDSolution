@@ -19,3 +19,4 @@ C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSo
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.exe
 C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.pdb
+C:\Users\Administrator\Desktop\RFIDSolution2018-6-18\RFIDSolution20180310\RFIDSolution\RfidLicenseGenerater\obj\x86\Release\RfidLicenseGenerater.csprojResolveAssemblyReference.cache

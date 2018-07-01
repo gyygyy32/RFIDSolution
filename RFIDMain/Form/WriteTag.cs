@@ -735,7 +735,7 @@ namespace RFIDMain
                     string stemp = oModuleInfo.Pivf;
 
 
-                    tbx_ff.Text = oModuleInfo.FF;//stemp.Substring(stemp.LastIndexOf(',') + 1);
+                    tbx_ff.Text =  (( Convert.ToDouble( oModuleInfo.FF)) * 100).ToString() + "%";//oModuleInfo.FF;//stemp.Substring(stemp.LastIndexOf(',') + 1);
 
                     textBox2.Text = "ZNSHINE";
                     textBox1.Text = "2016/4/29";
@@ -794,6 +794,9 @@ namespace RFIDMain
                     case ErrorCode.ReadSuccessful:
                         paintBackgroundColor(statusType.PASS);
                         _RFIDDevice.Beep(10);
+
+                        //MessageBox.Show("read success");
+                        //break;
                         oModuleInfo = TagDataFormat.ParserTag(_RFIDDevice.rConfig.readBuffer);
                         ShowModuleInfo(true);
                         ShowIVCurves(double.Parse(oModuleInfo.Isc), double.Parse(oModuleInfo.Ipm), double.Parse(oModuleInfo.Vpm), double.Parse(oModuleInfo.Voc),   oModuleInfo.Module_ID);
