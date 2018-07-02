@@ -34,6 +34,7 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtLot = new System.Windows.Forms.TextBox();
             this.BtCloseReader = new System.Windows.Forms.Button();
             this.BtRead = new System.Windows.Forms.Button();
             this.tbx_status = new System.Windows.Forms.TextBox();
@@ -89,7 +90,7 @@
             this.tbx_SerialWrite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tbx_SerialWrite.Font = new System.Drawing.Font("宋体", 20F);
             this.tbx_SerialWrite.Location = new System.Drawing.Point(181, 21);
-            this.tbx_SerialWrite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_SerialWrite.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_SerialWrite.Name = "tbx_SerialWrite";
             this.tbx_SerialWrite.Size = new System.Drawing.Size(367, 46);
             this.tbx_SerialWrite.TabIndex = 5;
@@ -115,7 +116,7 @@
             this.ckClearOperationRec.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckClearOperationRec.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.ckClearOperationRec.Location = new System.Drawing.Point(103, 5);
-            this.ckClearOperationRec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckClearOperationRec.Margin = new System.Windows.Forms.Padding(4);
             this.ckClearOperationRec.Name = "ckClearOperationRec";
             this.ckClearOperationRec.Size = new System.Drawing.Size(91, 24);
             this.ckClearOperationRec.TabIndex = 23;
@@ -147,6 +148,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtLot);
             this.groupBox1.Controls.Add(this.BtCloseReader);
             this.groupBox1.Controls.Add(this.BtRead);
             this.groupBox1.Controls.Add(this.tbx_status);
@@ -179,13 +181,20 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 156);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(741, 443);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "基本信息";
+            // 
+            // txtLot
+            // 
+            this.txtLot.Location = new System.Drawing.Point(381, 378);
+            this.txtLot.Name = "txtLot";
+            this.txtLot.Size = new System.Drawing.Size(279, 25);
+            this.txtLot.TabIndex = 55;
             // 
             // BtCloseReader
             // 
@@ -219,7 +228,7 @@
             // 
             this.tbx_status.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_status.Location = new System.Drawing.Point(73, 32);
-            this.tbx_status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_status.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_status.Name = "tbx_status";
             this.tbx_status.ReadOnly = true;
             this.tbx_status.Size = new System.Drawing.Size(145, 27);
@@ -240,7 +249,7 @@
             // 
             this.textBox5.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.textBox5.Location = new System.Drawing.Point(381, 188);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(279, 27);
@@ -262,7 +271,7 @@
             // 
             this.textBox4.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.textBox4.Location = new System.Drawing.Point(381, 344);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(279, 27);
@@ -285,7 +294,7 @@
             // 
             this.textBox3.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.textBox3.Location = new System.Drawing.Point(381, 292);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(279, 27);
@@ -307,7 +316,7 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.textBox1.Location = new System.Drawing.Point(381, 240);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(279, 27);
@@ -329,7 +338,7 @@
             // 
             this.textBox2.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.textBox2.Location = new System.Drawing.Point(381, 32);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(279, 27);
@@ -351,7 +360,7 @@
             // 
             this.tbx_ff.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_ff.Location = new System.Drawing.Point(73, 344);
-            this.tbx_ff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_ff.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_ff.Name = "tbx_ff";
             this.tbx_ff.ReadOnly = true;
             this.tbx_ff.Size = new System.Drawing.Size(145, 27);
@@ -372,7 +381,7 @@
             // 
             this.tbx_celldate.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_celldate.Location = new System.Drawing.Point(381, 136);
-            this.tbx_celldate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_celldate.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_celldate.Name = "tbx_celldate";
             this.tbx_celldate.ReadOnly = true;
             this.tbx_celldate.Size = new System.Drawing.Size(279, 27);
@@ -393,7 +402,7 @@
             // 
             this.tbx_packdate.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_packdate.Location = new System.Drawing.Point(381, 84);
-            this.tbx_packdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_packdate.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_packdate.Name = "tbx_packdate";
             this.tbx_packdate.ReadOnly = true;
             this.tbx_packdate.Size = new System.Drawing.Size(279, 27);
@@ -414,7 +423,7 @@
             // 
             this.tbx_ipm.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_ipm.Location = new System.Drawing.Point(73, 292);
-            this.tbx_ipm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_ipm.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_ipm.Name = "tbx_ipm";
             this.tbx_ipm.ReadOnly = true;
             this.tbx_ipm.Size = new System.Drawing.Size(145, 27);
@@ -424,7 +433,7 @@
             // 
             this.tbx_vpm.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_vpm.Location = new System.Drawing.Point(73, 240);
-            this.tbx_vpm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_vpm.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_vpm.Name = "tbx_vpm";
             this.tbx_vpm.ReadOnly = true;
             this.tbx_vpm.Size = new System.Drawing.Size(145, 27);
@@ -434,7 +443,7 @@
             // 
             this.tbx_isc.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_isc.Location = new System.Drawing.Point(73, 188);
-            this.tbx_isc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_isc.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_isc.Name = "tbx_isc";
             this.tbx_isc.ReadOnly = true;
             this.tbx_isc.Size = new System.Drawing.Size(145, 27);
@@ -444,7 +453,7 @@
             // 
             this.tbx_voc.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_voc.Location = new System.Drawing.Point(73, 136);
-            this.tbx_voc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_voc.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_voc.Name = "tbx_voc";
             this.tbx_voc.ReadOnly = true;
             this.tbx_voc.Size = new System.Drawing.Size(145, 27);
@@ -454,7 +463,7 @@
             // 
             this.tbx_pmax.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.tbx_pmax.Location = new System.Drawing.Point(73, 84);
-            this.tbx_pmax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_pmax.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_pmax.Name = "tbx_pmax";
             this.tbx_pmax.ReadOnly = true;
             this.tbx_pmax.Size = new System.Drawing.Size(145, 27);
@@ -509,7 +518,7 @@
             this.tbx_prodtype.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.tbx_prodtype.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbx_prodtype.Location = new System.Drawing.Point(181, 96);
-            this.tbx_prodtype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbx_prodtype.Margin = new System.Windows.Forms.Padding(4);
             this.tbx_prodtype.Name = "tbx_prodtype";
             this.tbx_prodtype.ReadOnly = true;
             this.tbx_prodtype.Size = new System.Drawing.Size(367, 42);
@@ -532,7 +541,7 @@
             this.chkbox_burningTag.AutoSize = true;
             this.chkbox_burningTag.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.chkbox_burningTag.Location = new System.Drawing.Point(588, 102);
-            this.chkbox_burningTag.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkbox_burningTag.Margin = new System.Windows.Forms.Padding(4);
             this.chkbox_burningTag.Name = "chkbox_burningTag";
             this.chkbox_burningTag.Size = new System.Drawing.Size(114, 31);
             this.chkbox_burningTag.TabIndex = 28;
@@ -598,7 +607,7 @@
             // 
             this.ivCurves1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ivCurves1.Location = new System.Drawing.Point(3, 20);
-            this.ivCurves1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ivCurves1.Margin = new System.Windows.Forms.Padding(4);
             this.ivCurves1.Name = "ivCurves1";
             this.ivCurves1.Size = new System.Drawing.Size(710, 577);
             this.ivCurves1.TabIndex = 25;
@@ -622,7 +631,7 @@
             this.lrtxtLog.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lrtxtLog.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lrtxtLog.Location = new System.Drawing.Point(3, 52);
-            this.lrtxtLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lrtxtLog.Margin = new System.Windows.Forms.Padding(4);
             this.lrtxtLog.Name = "lrtxtLog";
             this.lrtxtLog.Size = new System.Drawing.Size(1451, 217);
             this.lrtxtLog.TabIndex = 3;
@@ -658,7 +667,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox4);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "WriteTag";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "写标签";
@@ -727,5 +736,6 @@
         private System.Windows.Forms.RadioButton rb_HF;
         private System.Windows.Forms.Button BtRead;
         private System.Windows.Forms.Button BtCloseReader;
+        private System.Windows.Forms.TextBox txtLot;
     }
 }

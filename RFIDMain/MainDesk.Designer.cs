@@ -129,7 +129,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainDesk";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RFID读写程序";
+            this.Text = "RFID读写程序v1.0";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.RFIDMain_Load);
             this.menuStrip1.ResumeLayout(false);

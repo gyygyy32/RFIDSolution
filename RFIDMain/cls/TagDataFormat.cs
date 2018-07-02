@@ -53,7 +53,7 @@ namespace RFIDMain.cls
                 {
                     writer.Write(PacketStart);//@@
                     writer.Write(mi.ProductType);
-                    writer.Write(mi.Module_ID);
+                    writer.Write(mi.Module_ID.Remove(0,2));
                     writer.Write(DateToInt16(dateOfModulePacked));
                     writer.Write((int)iPmax);
                     writer.Write((short)iVoc);
@@ -63,13 +63,17 @@ namespace RFIDMain.cls
                     // 添加ff add by xue lei on 2018-6-23
                     writer.Write((short)iFF);
                     // writer.Write(CellSource);//add by genhong.hu On 2017-12-31，在此之前高频读卡器没有写入CellSource
-                    writer.Write(DateToInt16(celldate));
+                    //writer.Write(DateToInt16(celldate));
 
-                    writer.Write(PacketEnd);//##
+                    //writer.Write(PacketEnd);//##
                     writer.Close();
                 }
                 return stream.ToArray();
-                //return System.Text.Encoding.Default.GetBytes("QWERT%$#!#HIJHRKJWHEKHFEWFLKDWdsadsadfgregre1243243243245");
+
+                //string res = PacketStart + "|" + mi.ProductType + "|" + mi.Module_ID + "|" + dateOfModulePacked.ToString() + "|";// +
+                            //iPmax.ToString() + "|" + iVoc.ToString() + "|" + iIsc.ToString() + "|" + iVpm.ToString() + "|" + iIpm.ToString()
+                            //+ "|" + iFF.ToString() + "|" + celldate.ToString();
+                //return System.Text.Encoding.Default.GetBytes(res);
             }
         }
 
@@ -100,7 +104,7 @@ namespace RFIDMain.cls
                     throw new Exception("数据包开始标志出错");
                 }
                 o.ProductType = buffReader.ReadString();
-                o.Module_ID = buffReader.ReadString();
+                o.Module_ID = "ZX"+buffReader.ReadString();
                 DateTime dateOfModulePacked = DateFormInt16(buffReader.ReadInt16());
                 o.PackedDate =dateOfModulePacked.ToString("yyyy-MM");
                 //string pivf = buffReader.ReadString();
@@ -110,15 +114,15 @@ namespace RFIDMain.cls
                 double Vpm = buffReader.ReadInt16() * 1.0 / 100;
                 double Ipm = buffReader.ReadInt16() * 1.0 / 100;
                 double FF = buffReader.ReadInt16() * 1.0 / 100;
-                o.Pmax = Pmax.ToString();
-                o.Voc = Voc.ToString();
-                o.Isc = Isc.ToString();
-                o.Vpm = Vpm.ToString();
-                o.Ipm = Ipm.ToString();
+                o.Pmax = Pmax.ToString("0.00");
+                o.Voc = Voc.ToString("0.00");
+                o.Isc = Isc.ToString("0.00");
+                o.Vpm = Vpm.ToString("0.00");
+                o.Ipm = Ipm.ToString("0.00");
                 o.FF = (FF/100).ToString();
                 //o.Cellsource = buffReader.ReadString();//add by genhong.hu On 2017-12-31，在此之前高频读卡器没有写入CellSource
-                DateTime celldate = DateFormInt16(buffReader.ReadInt16());// Add by genhong.hu On 2014-08-11 ;  
-                o.CellDate = celldate.ToString("yyyy-MM");
+                //DateTime celldate = DateFormInt16(buffReader.ReadInt16());// Add by genhong.hu On 2014-08-11 ;  
+                o.CellDate = o.PackedDate;//celldate.ToString("yyyy-MM");
                 //ff 从数据库查询 modify by xue lei on 2018-6-23
                 //double FF = Math.Round(Vpm * Ipm / Voc / Isc * 100, 2);
              

@@ -88,7 +88,7 @@ namespace RFIDMain
                     tbx_SerialWrite.Enabled = false;
                     
                     SetLabelStatus(statusType.START);
-
+                    m_sSerialNumber = "";
                     m_sSerialNumber = ser;
                    
                     if (chkbox_burningTag.Checked)
@@ -216,8 +216,14 @@ namespace RFIDMain
 
                                     #endregion
 
-                                    ShowIVCurves(double.Parse(o.Isc), double.Parse(o.Ipm), double.Parse(o.Vpm), double.Parse(o.Voc),o.Module_ID);
+                                    if (o.Module_ID != ser)
+                                    {
+                                        MessageBox.Show("组件序列号不一致");
+                                        return;
+                                    }
 
+                                    ShowIVCurves(double.Parse(o.Isc), double.Parse(o.Ipm), double.Parse(o.Vpm), double.Parse(o.Voc),o.Module_ID);
+                                    //MessageBox.Show(o.Module_ID.ToString());
                                     byte[] btData = TagDataFormat.CreateByteArray(o);
 
                                     oModuleInfo = o;
@@ -225,8 +231,16 @@ namespace RFIDMain
                                     m_sBasicInfo = o.ProductType + "|" + o.PackedDate.Replace("-", ".") + "|" 
                                         + o.Pivf + "|" + o.Module_ID + "|" + o.CellDate.Replace("-", ".") + "|3";
 
-                                    if (_RFIDDevice.WriteTagBuff(btData))//WriteData(btData)
+                                    if (_RFIDDevice.WriteTagBuff(btData) && (CheckWrite()==m_sSerialNumber))//WriteData(btData)
                                     {
+                                        //检查写入是否成功
+                                        //string lot = CheckWrite();
+                                        //if (lot != m_sSerialNumber)
+                                        //{
+                                        //    MessageBox.Show("烧录失败");
+                                        //    return;
+                                        //}
+
                                         WriteLog2DB();
                                         //paintBackgroundColor(statusType.PASS);
                                         //WriteLog(lrtxtLog, "烧录成功！", 0);
@@ -749,6 +763,56 @@ namespace RFIDMain
         #endregion
 
 
+        private string CheckWrite()
+        {
+            string res = "";
+            if (!_RFIDDevice.ReadTagID())
+            {
+                _RFIDDevice.Beep(20);
+                res= "fail";
+            }
+            else
+            {
+                System.Threading.Thread.Sleep(20);
+                ErrorCode ec = _RFIDDevice.IsTagWrited();// ReadData();
+                switch (ec)
+                {
+                    case ErrorCode.CanNotFindTag: 
+                        _RFIDDevice.Beep(20);
+                        res = "无法找到标签，请重试！";
+                        //WriteLog(lrtxtLog, str, 1);
+                        break;
+                    case ErrorCode.OtherException:
+                        _RFIDDevice.Beep(20);
+                        res= "其他异常，请重试";                       
+                        break;
+                    case ErrorCode.ReadFail:
+                        
+                        res = "读取失败，请重试！";
+                        
+                        break;
+                    case ErrorCode.ReadSuccessful:
+                        paintBackgroundColor(statusType.PASS);
+                        _RFIDDevice.Beep(10);
+
+                        //MessageBox.Show("read success");
+                        //break;
+                        ModuleInfo mo = new ModuleInfo();
+                        mo = TagDataFormat.ParserTag(_RFIDDevice.rConfig.readBuffer);
+                        res = mo.Module_ID.ToString();    
+                        break;
+                    case ErrorCode.TagHasNoData:
+                        
+                        res = "空标签！";
+                        
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return res;
+        }
+
         #region 读取验证===================================================================================
         /// <summary>
         /// 
@@ -797,7 +861,9 @@ namespace RFIDMain
 
                         //MessageBox.Show("read success");
                         //break;
+                        oModuleInfo = null;
                         oModuleInfo = TagDataFormat.ParserTag(_RFIDDevice.rConfig.readBuffer);
+                        txtLot.Text = oModuleInfo.Module_ID.ToString();
                         ShowModuleInfo(true);
                         ShowIVCurves(double.Parse(oModuleInfo.Isc), double.Parse(oModuleInfo.Ipm), double.Parse(oModuleInfo.Vpm), double.Parse(oModuleInfo.Voc),   oModuleInfo.Module_ID);
                         

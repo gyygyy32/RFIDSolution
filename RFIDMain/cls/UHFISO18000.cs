@@ -311,51 +311,79 @@ namespace RFIDMain.cls
                 // rConfig.reader.Reset(rConfig.m_curSetting.btReadId);//复位读写器
                 ///H3这款标签对普通的写指令支持的不好
                 /////写数据时设专用功率值10dBm
-                //int ReadCount = 0;
-                //rConfig.writeSucceed = false;
-                //while (!rConfig.writeSucceed && ReadCount < 30)
+                int ReadCount = 0;
+                rConfig.writeSucceed = false;
+                while (!rConfig.writeSucceed && ReadCount < 30)
+                {
+
+                    ReadCount++;
+                    st = (short)rConfig.reader.WriteTag(rConfig.m_curSetting.btReadId, btAryPwd, rConfig.btMemBank, 0, (byte)blockNum, writenDataAll);
+                    System.Threading.Thread.Sleep(300);
+                }
+
+
+
+                //int totalbyte = writenDataAll.Length;
+                //byte byteindex = 0;
+                //byte blockindex = 0;
+                //byte bytecount = 1;
+                //while (totalbyte > 0 && st == 0)
                 //{
 
-                //    ReadCount++;
-                //    st = (short)rConfig.reader.WriteTag(rConfig.m_curSetting.btReadId, btAryPwd, rConfig.btMemBank, 0, (byte)blockNum, writenDataAll);
-                //    System.Threading.Thread.Sleep(300);
+                //    //writing data block by block
+                //    byte BlockNumber = totalbyte > 2 ? (byte)2 : (byte)totalbyte;
+
+                //    byte[] writenData = new byte[2];//the minimum writen unit is block
+                //    Array.Copy(writenDataAll, byteindex, writenData, 0, BlockNumber);
+                //    //bytecount = Convert.ToByte(writenData.Length / 2 + writenData.Length % 2);
+                //    //st = ISO15693Commands.rf_writeblock(ReaderInfo.icdev, 0x22, blockIndex, (byte)1, m_btTagUID, (byte)4, writenData);
+                //    st = (short)rConfig.reader.WriteTag(rConfig.m_curSetting.btReadId, btAryPwd, rConfig.btMemBank, blockindex, bytecount, writenData);
+                //    if (st != 0)
+                //    {
+                //        return false;
+                //    }
+
+                //    byteindex += BlockNumber;
+                //    totalbyte -= BlockNumber;
+                //    blockindex += 1;
+
+                //    System.Threading.Thread.Sleep(30);
                 //}
 
 
+                //10个block一写
+                //int totalbyte = writenDataAll.Length;
+                //byte byteindex = 0;
+                //byte blockindex = 0;
+                //byte bytecount = 1;
+                //while (totalbyte > 0 && st == 0)
+                //{
 
-                int totalbyte = writenDataAll.Length;
-                byte byteindex = 0;
-                byte blockindex = 0;
-                byte bytecount = 1;
-                while (totalbyte > 0 && st==0)
-                {
+                //    //writing data block by block
+                //    byte BlockNumber = totalbyte > 10 ? (byte)10 : (byte)totalbyte;
 
-                    //writing data block by block
-                    byte BlockNumber = totalbyte > 2 ? (byte)2 : (byte)totalbyte;
+                //    byte[] writenData = new byte[20];//the minimum writen unit is block
+                //    Array.Copy(writenDataAll, byteindex, writenData, 0, BlockNumber);
+                //    //bytecount = Convert.ToByte(writenData.Length / 2 + writenData.Length % 2);
+                //    //st = ISO15693Commands.rf_writeblock(ReaderInfo.icdev, 0x22, blockIndex, (byte)1, m_btTagUID, (byte)4, writenData);
+                //    st = (short)rConfig.reader.WriteTag(rConfig.m_curSetting.btReadId, btAryPwd, rConfig.btMemBank, blockindex, bytecount, writenData);
+                //    if (st != 0)
+                //    {
+                //        return false;
+                //    }
 
-                    byte[] writenData = new byte[2];//the minimum writen unit is block
-                    Array.Copy(writenDataAll, byteindex, writenData, 0, BlockNumber);
-                    //bytecount = Convert.ToByte(writenData.Length / 2 + writenData.Length % 2);
-                    //st = ISO15693Commands.rf_writeblock(ReaderInfo.icdev, 0x22, blockIndex, (byte)1, m_btTagUID, (byte)4, writenData);
-                    st = (short)rConfig.reader.WriteTag(rConfig.m_curSetting.btReadId, btAryPwd, rConfig.btMemBank, blockindex, bytecount, writenData);
-                    if (st != 0)
-                    {
-                        return false;
-                    }
+                //    byteindex += BlockNumber;
+                //    totalbyte -= BlockNumber;
+                //    blockindex += 1;
 
-                    byteindex += BlockNumber;
-                    totalbyte -= BlockNumber;
-                    blockindex += 1;
+                //    System.Threading.Thread.Sleep(30);
+                //}
 
-                    System.Threading.Thread.Sleep(200);
-                }
-
-
-                if (!rConfig.writeSucceed)
-                {
-                    Speech("请放置好标签");
-                    return false;
-                }
+                //if (!rConfig.writeSucceed)
+                //{
+                //    Speech("请放置好标签");
+                //    return false;
+                //}
 
 
 
